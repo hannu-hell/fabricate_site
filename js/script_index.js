@@ -3,7 +3,7 @@ let slideIndex = 0; // Initialize the slide index
 // Function to show images in the slideshow
 function showSlides() {
     const slides = document.getElementsByClassName("slideshow")[0];
-    const images = ["index_images/1.jpg", "index_images/6.jpg", "index_images/10.jpg", "index_images/12.jpg"]; // Add your image URLs here
+    const images = ["../images/footwear/1.jpg", "../images/footwear/6.jpg", "../images/footwear/10.jpg", "../images/footwear/12.jpg"]; // Add your image URLs here
 
     slides.innerHTML = ""; // Clear previous slides
 
